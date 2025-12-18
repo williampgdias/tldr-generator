@@ -30,3 +30,8 @@ We live in an era of content saturation. Professionals spend hours reading docum
     cp .env.example .env
     php artisan key:generate
     ```
+4. **Build Frontend Assets**
+   Ensure the frontend dependencies are ready:
+    ```bash
+    npm install && npm run build
+    ```
